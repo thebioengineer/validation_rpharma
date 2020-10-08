@@ -61,6 +61,7 @@ pres_bio <- pres_title %>%
         - <span style='font-weight: bold;'>Community</span>
           - Seattle UseR Organizer
           - TidyX Screencast
+          
         <ul>
         <li><p><i href = 'https://twitter.com/ellis_hughes' style = 'text-decoration: none; color: white' class='fa fa-twitter'></i> @ellis_hughes</p></li>
         <li><p><i href = 'https://github.com/thebioengineer' style = 'text-decoration: none; color: white' class='fa fa-github'></i> thebioengineer</p></li>
