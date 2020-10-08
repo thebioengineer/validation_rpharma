@@ -462,7 +462,7 @@ pres_val_test <- pres_val_code %>%
   
     - Goals of the test case
     - Specify the required data
-    - Recipe for success
+    - Recipe to get to output
     - Clear Expectations
 
   ",style = "font-size: 45px;margin-top:140px;"),
@@ -472,7 +472,7 @@ pres_val_test <- pres_val_code %>%
   
     - Who wrote the Test
     - When they wrote it
-    - Which specifications are satisfied
+    - _Which_ specifications are satisfied
     
   ",style = "font-size: 45px;margin-top:140px;"),
   
@@ -585,7 +585,7 @@ pres_val_test_code <- pres_val_test %>%
   panel_markdown("
   {testthat}
   
-    - Familar framework (20K packages on CRAN!)
+    - Familar framework
     - Can run and developed interactively
     - Automation
     
@@ -595,8 +595,8 @@ pres_val_test_code <- pres_val_test %>%
   Reporter Objects from {testthat}
   
     - Track each test and expectation
-    - Reports Success
-    - Records Failure mode
+    - Reports success
+    - Records failure mode
 
   ",style = "font-size: 45px;margin-top: 140px;"),
   
@@ -645,11 +645,11 @@ pres_val_doc <- pres_val_test_code %>%
   
   Final Elements Required
   
-  - Sign off Page
+  - Sign off page
   
-  - Environment Information
+  - Environment information
     - R version
-    - Package Dependencies and versions
+    - Package dependencies and versions
     
   ",style = "font-size: 45px;margin-top: 140px;"),
   
@@ -657,7 +657,7 @@ pres_val_doc <- pres_val_test_code %>%
        
   ## Rmarkdown
   
-  - lives in the vignettes folder
+  - Lives in the vignettes folder
   - Native prose with code
   - Flexible outputs
   
@@ -672,7 +672,7 @@ pres_val_doc <- pres_val_test_code %>%
     - Generate list of ownership of all documentation
     - Generate table of specification coverage
     
-  ## Testthat
+  ## {testthat}
     - Record results of test code
     
   ",style = "font-size: 45px;margin-top: 140px;"),
