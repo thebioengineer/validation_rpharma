@@ -521,7 +521,7 @@ pres_val_test_code <- pres_val_test %>%
   
   - Third Party 
   
-  ", style = "margin-top:140px; font-size: 50px;"),
+  ", style = "margin-top:140px; font-size: 45px;"),
   panel_markdown("
   Benefits
     
@@ -536,8 +536,7 @@ pres_val_test_code <- pres_val_test %>%
   
   panel_markdown("
   <div class = 'center_content'>
-  <div style = 'margin:auto; width: 100%;'>
-  <p style='font-size:60px'>Approach</p>
+  <div style = 'margin:auto; width: 100%; margin-top:180px'>
   <img src='https://github.com/r-lib/testthat/raw/master/man/figures/logo.png' style='width: 49%;display:inline-block;'/>
   <img src='https://github.com/r-lib/roxygen2/raw/master/man/figures/logo.png' style='width: 49%;display:inline-block;'/>
   </div></div>
@@ -554,7 +553,7 @@ pres_val_test_code <- pres_val_test %>%
   
   panel_markdown("
   
-  *Roxygen Tags*
+  Roxygen Tags
   
     - <span style='color:indianred;'>@section Last Updated By:</span>
     - <span style='color:indianred;'>@section Last Update Date:</span>
@@ -662,7 +661,7 @@ pres_val_doc <- pres_val_test_code %>%
   - Native prose with code
   - Flexible outputs
   
-  Validate on the click of a button
+  Generate report on the click of a button
 
     
   ",style = "font-size: 45px;margin-top: 140px;"),
